@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ElectricBorder from "@/components/ElectricBorder";
+import DecryptedText from "@/components/DecryptedText";
 
 export default function Home() {
   return (
@@ -39,7 +40,15 @@ export default function Home() {
           className="mb-3 text-amber-500 text-2xl md:text-3xl tracking-[0.8rem] font-light select-none"
           style={{ fontFamily: "var(--font-cinzel)" }}
         >
-          ⚔ REVIL PRESENTS ⚔
+          <DecryptedText
+            text="⚔ REVIL PRESENTS ⚔"
+            speed={100}
+            maxIterations={20}
+            animateOn="view"
+            characters="ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ⚔✦※"
+            className="text-amber-500"
+            encryptedClassName="text-amber-700 opacity-50"
+          />
         </div>
 
         {/* Main Title */}
@@ -48,8 +57,16 @@ export default function Home() {
         </h1>
 
         {/* Subtitle */}
-        <p className="mb-4 text-lg md:text-xl text-amber-500 font-bold tracking-[0.3em] uppercase drop-shadow-md">
-          Capture The Flag
+        <p className="mb-4 text-lg md:text-xl text-amber-500 font-bold tracking-[0.3em] uppercase drop-shadow-md cursor-pointer">
+          <DecryptedText
+            text="Capture The Flag"
+            speed={80}
+            maxIterations={15}
+            animateOn="hover"
+            characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ▒░"
+            className="text-amber-500"
+            encryptedClassName="text-amber-600 opacity-60"
+          />
         </p>
 
         {/* Odyssey Quote */}

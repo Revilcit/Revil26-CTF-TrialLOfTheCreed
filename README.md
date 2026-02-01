@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚔️ TRIAL OF THE CREED ⚔️
 
-## Getting Started
+> _"The world is full of men who fight for glory. But only a few fight for what truly matters."_
 
-First, run the development server:
+## 🏛️ Welcome, Misthios
+
+This is the landing page for **Trial of the Creed**, a Capture The Flag competition inspired by the legendary _Assassin's Creed Odyssey_. Step into the Animus, embrace your destiny as a mercenary, and prove your worth in the arena of hackers.
+
+---
+
+## 🗡️ The Brotherhood's Creed
+
+_"Nothing is true, everything is permitted"_
+
+This project is built with the tools of the First Civilization:
+
+- ⚡ **Next.js 16** - The Eagle Vision of web frameworks
+- 🎨 **Tailwind CSS** - Styled like Leonidas' armor
+- 🦅 **Animus Effects** - Digital glitch overlays and scan lines
+- ✨ **Particle Systems** - Floating embers from the battlefields of ancient Greece
+- 🏺 **Greek Meander Patterns** - Ancient borders worthy of the gods
+- ⚡ **Electric Border Components** - Power flowing like Isu technology
+
+---
+
+## 🎯 Your Mission
+
+Navigate through challenges inspired by:
+
+- 🏛️ **Ancient Greece** - The birthplace of democracy and philosophy
+- ⚔️ **Spartan Warriors** - "Come back with your shield, or on it"
+- 🦅 **Ikaros** - The eagle companion soaring through the skies
+- 🌊 **The Aegean Sea** - Navigate treacherous waters
+- 🔱 **The First Civilization** - Decode Isu artifacts and technology
+- 🎭 **Cult of Kosmos** - Unmask the hidden conspiracy
+- 🗿 **The Olympian Gods** - Face trials worthy of the pantheon
+
+---
+
+## 🚀 Synchronizing the Animus
+
+First, synchronize your local Animus server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to enter the Animus simulation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Helix interface auto-updates as you modify `app/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Aesthetic References
 
-To learn more about Next.js, take a look at the following resources:
+### Typography
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Cinzel** - Inspired by Trajan's Column, used for all heroic titles
+- **EB Garamond** - Classical serif for authentic historical feel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Color Palette
 
-## Deploy on Vercel
+- 🟡 **Amber (#d97706)** - Greek gold, the color of the gods
+- ⚫ **Slate** - Ancient stone and Mediterranean nights
+- 🔵 **Animus Blue** - Digital overlay from the simulation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Visual Effects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Animus Glitch** - Subtle scan lines reminiscent of the Animus interface
+- **Floating Particles** - Embers and dust from ancient battlefields
+- **Greek Patterns** - Meander borders (Greek key pattern)
+- **Electric Border** - Isu technology energy flow
+
+---
+
+## 📜 The Codex
+
+Key locations in your odyssey:
+
+```
+ctf/
+├── app/
+│   ├── page.tsx          # The Animus Interface (Landing Page)
+│   ├── layout.tsx        # The Helix Core (Root Layout)
+│   └── globals.css       # The Piece of Eden (Styling)
+├── components/
+│   ├── ElectricBorder.jsx # Isu Technology
+│   └── ElectricBorder.css # Ancient Power
+└── public/
+    └── background.jpeg   # The Aegean Landscape
+```
+
+---
+
+## ⚡ Isu Technology Stack
+
+This landing page channels the power of the Precursors:
+
+- **Next.js App Router** - Like the Isu's advanced navigation
+- **TypeScript** - Precision of an Assassin's blade
+- **Tailwind CSS** - Swifter than Hermes himself
+- **Google Fonts** - Typography worthy of ancient scrolls
+- **Custom Animations** - Movement as fluid as parkour through Athens
+
+---
+
+## 🎭 The Odyssey Begins
+
+_"I was a puppet once. Never again. From now on, I take the strings, and I pull them."_
+
+Face the trials ahead:
+
+1. 🗡️ **Master the blade** - Solve cryptography challenges
+2. 🏺 **Decode ancient texts** - Reverse engineering mysteries
+3. 🦅 **Eagle Vision** - Binary exploitation awaits
+4. 🌊 **Navigate the seas** - Web exploitation challenges
+5. ⚔️ **Conquer Sparta** - Pwn the systems like a true warrior
+
+---
+
+## 🏛️ Synchronization Complete
+
+Deploy your Animus to the cloud using [Vercel](https://vercel.com):
+
+```bash
+vercel deploy
+```
+
+Or any platform worthy of the Brotherhood's standards.
+
+---
+
+## 📖 The Creed's Wisdom
+
+_"In my world, the laws are written in blood. The strong survive, the weak perish."_
+
+Built with dedication to the peak of the Assassin's Creed franchise - **Odyssey**.
+
+**May the gods favor your journey, Misthios.** 🏛️⚔️🦅
+
+---
+
+_Malaka!_ 🇬🇷

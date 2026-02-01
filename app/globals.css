@@ -104,7 +104,7 @@ body {
     rgba(59, 130, 246, 0.5),
     transparent
   );
-  animation: scanline 8s linear infinite;
+  animation: scanline 5s linear infinite;
   z-index: 100;
   pointer-events: none;
 }
