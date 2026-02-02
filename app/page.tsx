@@ -102,6 +102,7 @@ export default function Home() {
           chaos={0.15}
           borderRadius={8}
           className="mb-4"
+          style={{}}
         >
           <Link
             href="https://ctfd.io"
