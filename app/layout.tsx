@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "CTF - Trial of the Creed",
   description:
     "Embrace your destiny as a Misthios. A Capture The Flag competition inspired by Assassin's Creed Odyssey.",
+  icons: { icon: "/revil_icon.png" }
 };
 
 export default function RootLayout({

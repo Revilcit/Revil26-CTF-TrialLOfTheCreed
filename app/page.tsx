@@ -105,7 +105,7 @@ export default function Home() {
           style={{}}
         >
           <Link
-            href="https://ctfd.io"
+            href="http://18.61.64.208:8000/"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-3 overflow-hidden rounded-lg bg-gradient-to-r from-amber-900/40 to-amber-800/40 backdrop-blur-sm px-8 py-3 text-base font-bold text-white uppercase tracking-widest transition-all duration-300 hover:from-amber-800/60 hover:to-amber-700/60"
